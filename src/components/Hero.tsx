@@ -41,7 +41,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#9b87f5] via-[#E5DEFF] to-[#FDE1D3] opacity-50" />
       
       <div
         ref={heroRef}
