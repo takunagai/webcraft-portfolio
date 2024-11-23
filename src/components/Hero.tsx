@@ -53,6 +53,18 @@ const Hero = () => {
             <span className="block text-primary">可能性を形に</span>
           </h1>
           
+          <div className="aspect-video w-full max-w-2xl mx-auto rounded-lg overflow-hidden shadow-xl">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            ></iframe>
+          </div>
+          
           <p className="text-lg md:text-xl text-primary/80 max-w-2xl mx-auto">
             美しいデザインと強力な機能性を組み合わせた、プレミアムなWeb制作サービスを提供します。
             あなたのデジタルビジョンを現実のものに。
