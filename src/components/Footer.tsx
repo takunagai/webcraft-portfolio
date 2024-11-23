@@ -6,14 +6,14 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">webco.</h3>
             <p className="text-white/70">
-              Creating digital experiences that inspire and innovate.
+              革新的なデジタル体験を創造する
             </p>
           </div>
           
           <div>
-            <h4 className="font-bold mb-4">Services</h4>
+            <h4 className="font-bold mb-4">サービス</h4>
             <ul className="space-y-2">
-              {['Web Design', 'Development', 'Digital Solutions'].map((item) => (
+              {['Webデザイン', '開発', 'デジタルソリューション'].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-white/70 hover:text-white transition-colors">
                     {item}
@@ -24,11 +24,13 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-bold mb-4">Company</h4>
+            <h4 className="font-bold mb-4">会社情報</h4>
             <ul className="space-y-2">
-              {['About', 'Projects', 'Contact'].map((item) => (
+              {['会社概要', 'プロジェクト', 'お問い合わせ'].map((item) => (
                 <li key={item}>
-                  <a href={`#${item.toLowerCase()}`} className="text-white/70 hover:text-white transition-colors">
+                  <a href={`#${item === '会社概要' ? 'about' : 
+                           item === 'プロジェクト' ? 'projects' : 'contact'}`} 
+                     className="text-white/70 hover:text-white transition-colors">
                     {item}
                   </a>
                 </li>
@@ -37,11 +39,11 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-bold mb-4">Contact</h4>
+            <h4 className="font-bold mb-4">お問い合わせ</h4>
             <ul className="space-y-2 text-white/70">
-              <li>hello@webco.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Web Street, Digital City</li>
+              <li>info@webco.jp</li>
+              <li>03-1234-5678</li>
+              <li>〒100-0001 東京都千代田区1-1-1</li>
             </ul>
           </div>
         </div>

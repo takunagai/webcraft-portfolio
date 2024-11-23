@@ -5,25 +5,24 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-6">
             <span className="text-sm uppercase tracking-wider text-primary/60">
-              About Us
+              会社概要
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              We're a team of digital craftsmen
+              デジタルクラフトマンシップの追求
             </h2>
             <p className="text-primary/70 leading-relaxed">
-              With years of experience in digital innovation, we combine creativity
-              with technical expertise to deliver exceptional results. Our passion
-              lies in transforming ideas into powerful digital solutions that drive
-              business growth.
+              デジタルイノベーションの分野で培った経験を活かし、創造性と技術力を組み合わせて
+              卓越した成果を提供します。私たちの情熱は、アイデアを強力なデジタルソリューションへと
+              変換し、ビジネスの成長を促進することにあります。
             </p>
             <div className="grid grid-cols-2 gap-8 pt-8">
               <div>
                 <div className="text-3xl font-bold">100+</div>
-                <p className="text-primary/60 mt-2">Projects Completed</p>
+                <p className="text-primary/60 mt-2">プロジェクト実績</p>
               </div>
               <div>
                 <div className="text-3xl font-bold">50+</div>
-                <p className="text-primary/60 mt-2">Happy Clients</p>
+                <p className="text-primary/60 mt-2">お客様の声</p>
               </div>
             </div>
           </div>
@@ -32,7 +31,7 @@ const About = () => {
             <div className="aspect-square rounded-2xl overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
-                alt="Team at work"
+                alt="チームワーク"
                 className="w-full h-full object-cover"
               />
             </div>

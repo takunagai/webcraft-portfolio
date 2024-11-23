@@ -23,10 +23,12 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center space-x-8">
-          {['Projects', 'Services', 'About', 'Contact'].map((item) => (
+          {['プロジェクト', 'サービス', '会社概要', 'お問い合わせ'].map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`#${item === 'プロジェクト' ? 'projects' : 
+                     item === 'サービス' ? 'services' :
+                     item === '会社概要' ? 'about' : 'contact'}`}
               className="text-primary hover:text-primary/80 transition-colors"
             >
               {item}
@@ -44,10 +46,12 @@ const Navbar = () => {
 
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white/95 backdrop-blur-md border-t">
-          {['Projects', 'Services', 'About', 'Contact'].map((item) => (
+          {['プロジェクト', 'サービス', '会社概要', 'お問い合わせ'].map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase()}`}
+              href={`#${item === 'プロジェクト' ? 'projects' : 
+                     item === 'サービス' ? 'services' :
+                     item === '会社概要' ? 'about' : 'contact'}`}
               className="block px-6 py-4 text-primary hover:bg-secondary/20 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >

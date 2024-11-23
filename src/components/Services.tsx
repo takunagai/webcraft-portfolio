@@ -3,18 +3,18 @@ import { Code, Globe, Laptop } from 'lucide-react';
 const services = [
   {
     icon: <Globe className="w-8 h-8" />,
-    title: "Web Design",
-    description: "Creating stunning, responsive websites that captivate your audience and drive engagement.",
+    title: "Webデザイン",
+    description: "魅力的でレスポンシブなウェブサイトを制作し、ユーザーの心を掴むデザインを実現します。",
   },
   {
     icon: <Code className="w-8 h-8" />,
-    title: "Development",
-    description: "Building robust web applications with cutting-edge technologies and best practices.",
+    title: "開発",
+    description: "最新技術とベストプラクティスを活用し、堅牢なWebアプリケーションを構築します。",
   },
   {
     icon: <Laptop className="w-8 h-8" />,
-    title: "Digital Solutions",
-    description: "Comprehensive digital strategies to help your business thrive in the modern world.",
+    title: "デジタルソリューション",
+    description: "現代のビジネスニーズに応える包括的なデジタル戦略を提供します。",
   },
 ];
 
@@ -24,10 +24,10 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-sm uppercase tracking-wider text-primary/60">
-            What We Do
+            サービス内容
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-4">
-            Our Services
+            提供サービス
           </h2>
         </div>
 

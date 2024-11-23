@@ -1,21 +1,21 @@
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A premium shopping experience with seamless checkout",
+    title: "ECプラットフォーム",
+    description: "プレミアムなショッピング体験と簡単な決済システム",
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    category: "Web Development",
+    category: "Web開発",
   },
   {
-    title: "Financial Dashboard",
-    description: "Real-time analytics and reporting system",
+    title: "財務ダッシュボード",
+    description: "リアルタイム分析とレポーティングシステム",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    category: "Application",
+    category: "アプリケーション",
   },
   {
-    title: "Healthcare Portal",
-    description: "Patient management system with intuitive interface",
+    title: "医療ポータル",
+    description: "直感的なインターフェースを備えた患者管理システム",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-    category: "Web Development",
+    category: "Web開発",
   },
 ];
 
@@ -25,10 +25,10 @@ const Projects = () => {
       <div className="container mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-sm uppercase tracking-wider text-primary/60">
-            Our Work
+            制作実績
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mt-4">
-            Featured Projects
+            主要プロジェクト
           </h2>
         </div>
 

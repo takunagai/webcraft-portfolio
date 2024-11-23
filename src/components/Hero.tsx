@@ -49,13 +49,13 @@ const Hero = () => {
       >
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            We Create Digital
-            <span className="block text-primary">Experiences</span>
+            デジタルの
+            <span className="block text-primary">可能性を形に</span>
           </h1>
           
           <p className="text-lg md:text-xl text-primary/80 max-w-2xl mx-auto">
-            Crafting premium web solutions that combine stunning design with
-            powerful functionality. We bring your digital vision to life.
+            美しいデザインと強力な機能性を組み合わせた、プレミアムなWeb制作サービスを提供します。
+            あなたのデジタルビジョンを現実のものに。
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -63,13 +63,13 @@ const Hero = () => {
               href="#contact"
               className="px-8 py-4 bg-primary text-white rounded-lg hover-lift"
             >
-              Start a Project
+              プロジェクトを始める
             </a>
             <a
               href="#projects"
               className="px-8 py-4 border border-primary/20 rounded-lg hover-lift"
             >
-              View Our Work
+              制作実績を見る
             </a>
           </div>
         </div>
